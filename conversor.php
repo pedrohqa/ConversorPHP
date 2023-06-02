@@ -8,6 +8,7 @@
         <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
         <script src='main.js'></script>
     </head>
+    <body bgcolor="#A7CFEE">
         <?php
             echo "<br> <br> <br> <center>";
 

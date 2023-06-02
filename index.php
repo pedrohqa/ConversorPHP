@@ -8,19 +8,25 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
+<body bgcolor="#A7CFEE">
     <h1><center>Conversor de Temperatura</center></h1>
+    <br>
+    <br>
     <form action="conversor.php" method="post">
-        <lable for="tipoConversao"> Tipo de conversão: 
+        <lable for="tipoConversao"><center> Tipo de conversão: 
             <select id="op" name="tipoTemp">
                 <option value="1">ºC → ºF</option>
                 <option value="2">ºF → ºC</option>
-            </select>
+            </center></select>
         </lable><br><br>
         <label for="temperatura">Temperatura:</label>
         <input type="number" name="temp">
         <input type="submit">
-
+        <style>
+            h1{
+                color: #4988B8;
+            }
+        </style>
     </form>
 </body>
 </html>
